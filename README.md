@@ -11,7 +11,7 @@
 
 # Scrum Board Tracking sheet
 
-##Diego
+## Diego
 
 Back log-
 
@@ -23,7 +23,7 @@ Ready to deploy-
 
 
 
-##Ethan
+## Ethan
 
 Back log-
 
@@ -35,7 +35,7 @@ Ready to deploy-
 
 
 
-##Naweid
+## Naweid
 
 Back log-
 
@@ -47,7 +47,7 @@ Ready to deploy-
 
 
 
-##Luca
+## Luca
 
 Back log-
 
