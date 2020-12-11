@@ -12,6 +12,7 @@
 ## Scrum Board Tracking sheet
 
 Diego
+
 Back log-
 
 Assigned-
@@ -19,8 +20,11 @@ Assigned-
 In Progress-
 
 Ready to deploy-
+
+
 
 Ethan
+
 Back log-
 
 Assigned-
@@ -28,8 +32,11 @@ Assigned-
 In Progress-
 
 Ready to deploy-
+
+
 
 Naweid
+
 Back log-
 
 Assigned-
@@ -38,7 +45,10 @@ In Progress-
 
 Ready to deploy-
 
+
+
 Luca
+
 Back log-
 
 Assigned-
