@@ -13,24 +13,37 @@
 
 Diego
 Back log-
+
 Assigned-
+
 In Progress-
+
 Ready to deploy-
 
 Ethan
 Back log-
+
 Assigned-
+
 In Progress-
+
 Ready to deploy-
 
 Naweid
 Back log-
+
 Assigned-
+
 In Progress-
+
 Ready to deploy-
 
 Luca
 Back log-
+
 Assigned-
+
 In Progress-
+
 Ready to deploy-
+
