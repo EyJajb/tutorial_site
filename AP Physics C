@@ -74,30 +74,7 @@
 </div>
 {% endblock %}
 
-{% block hotspot2 %}
-<div class="box">
-    <h3>Top Hotels</h3>
-    <hr>
-    <div id="Hotel">
-        <h2><br>Hof</h2>
-        <a href="" style="color: white;"></a>
-    </div>
-    <pre style="color:DarkSlateGrey; font-size:75%; overflow-x: hidden; max-width: 100%; background-color: burlywood; border: 5px darkgoldenrod;">
-        ""
-        </pre>
-</div>
 
-<div class="box">
-    <h3>Top Restaurants</h3>
-    <hr>
-    <div id="Restaurant">
-        <h2>Restaurant<br>Telemachos</h2>
-        <a href="" style="color: white;"></a>
-    </div>
-    <pre style="color:DarkSlateGrey; font-size:75%; overflow-x: hidden; max-width: 100%; background-color: burlywood; border: 5px darkgoldenrod;">
-        ""
-        </pre>
-</div>
 {% endblock %}
 
 {% block hotspot3 %}
