@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+{% block head %}
+<title xmlns:color="http://www.w3.org/1999/xhtml">{{name}} | Unit 1 </title>
+<head>
+    <style>
+ #myBG {
+    background-image: url();
+    background-size: 100% 300px;
+ }
+ #Video 1 {
+     background-image: url();
+     text-align:center;
+     width: 385px;
+     height: 216.3147px;
+     background-size: 385px 216.3147px;
+     color: white;
+     text-shadow: 2px 2px black;
+ }
+ #Video 2 {
+     background-image: url();
+     text-align:center;
+     width: 385px;
+     height: 288.5px;
+     background-size: 385px 288.5px;
+     color: white;
+     text-shadow: 2px 2px black;
+ }
+ .box {
+     background-image: url();
+     color: black;
+     border: 5px solid green;
+     padding: 40px;
+ }
+</style>
+</head>
+{% endblock %}
+
+<!-- Project  Information  -->
+{% block title %}
+<div id="myBG">
+    <h1</h1>
+    <pre style="color:white; font-size:18px;">
+    </pre>
+    <pre style="color:white;">By Diego Krenz
+    </pre>
+</div>
+{% endblock %}
+
+{% block hotspot1 %}
+<div>
+    <h2>Hot spots</h2>
+    <hr>
+    <h3>Parthenon</h3>
+    <img src="" alt="" style="width:300px;height:200px;">
+    <pre style="color:DarkSlateGrey;">
+   
+    </pre>
+    <hr>
+    <h3></h3>
+    <img src="" alt="" style="width:300px;height:203px;" >
+    <pre style="color:DarkSlateGrey;">
+    
+    
+    
+    </pre>
+    <hr>
+    <h3></h3>
+    <img src="" alt="" style="width:300px;height:267px;">
+    <pre style="color:DarkSlateGrey;">
+    "
+    </pre>
+</div>
+{% endblock %}
+
+{% block hotspot2 %}
+<div class="box">
+    <h3>Top Hotels</h3>
+    <hr>
+    <div id="Hotel">
+        <h2><br>Hof</h2>
+        <a href="" style="color: white;"></a>
+    </div>
+    <pre style="color:DarkSlateGrey; font-size:75%; overflow-x: hidden; max-width: 100%; background-color: burlywood; border: 5px darkgoldenrod;">
+        ""
+        </pre>
+</div>
+
+<div class="box">
+    <h3>Top Restaurants</h3>
+    <hr>
+    <div id="Restaurant">
+        <h2>Restaurant<br>Telemachos</h2>
+        <a href="" style="color: white;"></a>
+    </div>
+    <pre style="color:DarkSlateGrey; font-size:75%; overflow-x: hidden; max-width: 100%; background-color: burlywood; border: 5px darkgoldenrod;">
+        ""
+        </pre>
+</div>
+{% endblock %}
+
+{% block hotspot3 %}
+
+{% endblock %}
