@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+{% block head %}
+<title>{{name}}| test </title>
+{% endblock %}
+
+{% block title %}
+Hello <!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<br>
+{% endblock %}
+
+
+{% block pageContent %}
+    <b>Feedback Form  </b>  <br>
+    <form action="testing" method="post" style="margin: 35px; border: 2px solid darkblue; padding: 25px; background:powderblue">
+        Hows the website so far?
+        <select>
+            <option>It's good</option>
+            <option>I don't like it</option>
+        </select><br>
+        Name: <input type="text" name="name"><br>
+        E-mail: <input type="text" name="email"><br>
+        <hr size="20">
+        Test textarea <br>
+        <textarea cols="50" rows="5">You can edit this</textarea><br>
+        <b>List the classes you are planning to study</b><br>
+        <input type="checkbox" id="vehicle1" name="class 1" value="yes">
+        <label for="vehicle1"> class 1 </label><br>
+        <input type="checkbox" id="vehicle2" name="class 3" value="yes">
+        <label for="vehicle2"> class 2 </label><br>
+        <input type="checkbox" id="vehicle3" name="class 3" value="yes">
+        <label for="vehicle3"> class 3 </label><br>
+        <input type="submit">
+    </form>
+    {% endblock %}
