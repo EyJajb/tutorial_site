@@ -25,6 +25,22 @@ def home_route():
 def test_route():
     return render_template("test.html", projects=projects.setup())
 
+@app.route('/calc/')
+def calc_route():
+    return render_template("APCalcAB.html", projects=projects.setup())
+@app.route('/phys/')
+def phys_route():
+    return render_template("APPhysicsC.html", projects=projects.setup())
+@app.route('/euro/')
+def euro_route():
+    return render_template("APEuro.html", projects=projects.setup())
+@app.route('/hist/')
+def hist_route():
+    return render_template("USHistory.html", projects=projects.setup())
+@app.route('/precalc/')
+def precalc_route():
+    return render_template("Precalc.html", projects=projects.setup())
+
 @app.route('/form', methods=['POST', 'GET'])
 def form():
     if request.method == 'GET':
