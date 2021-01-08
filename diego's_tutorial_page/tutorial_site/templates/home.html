@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 {% extends "base.html" %}
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>tutorialsite</title>
-</head>
-<body>
-<div style="color:white; font-size:18px;">
-    <h1>Germany</h1>
-    <pre style="color:white; font-size:18px;">Travel to Germany! The birthplace of cars and hamburgers
-    </pre>
-    <pre style="color:white;">By Ethan Sun
-    </pre>
-</div>
-</body>
-</html>
+{% block head %}
+<title>{{name}}| Home </title>
+{% endblock %}
+
+{% block title %}
+<b>8 classes to choose from</b><br>
+<b>over 24 videos to help in your studies</b>
+{% endblock %}
+
+
+{% block pageContent %}
+<div class="row" style="padding-left: 10%;">
+    <div class="col-8" style="padding: 15px; background:aliceblue">
+        {% if signedin == True %}
+        <div>
+            Oh no you were not supposed to see this yet
+        </div>
+        {% else %}
+        <div>
+            Sign in to see recommended videos <hr size="20">
+            Other descriptions that explain the website
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="col-4">
+        <img src="https://online.jwu.edu/sites/default/files/styles/article_feature_page/public/field/image/five%20trends%20in%20online%20learning.jpg?itok=w1xHK_cm" alt="Italian Trulli">
+    </div>
+    {% endblock %}
