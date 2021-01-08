@@ -33,7 +33,13 @@ def phys_route():
     return render_template("APPhysicsC.html", projects=projects.setup())
 @app.route('/euro/')
 def euro_route():
-    return render_template("test.html", projects=projects.setup())
+    return render_template("APEuro.html", projects=projects.setup())
+@app.route('/hist/')
+def hist_route():
+    return render_template("APEuro.html", projects=projects.setup())
+@app.route('/precalc/')
+def precalc_route():
+    return render_template("APEuro.html", projects=projects.setup())
 
 @app.route('/form', methods=['POST', 'GET'])
 def form():
