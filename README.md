@@ -4,11 +4,8 @@
 # Big Tickets
 
 | Big ticket 1: Data from python to html         |   |
-|------------------------------------------------|---|
 | Big ticket 2: Form                             |   |
-|------------------------------------------------|---|
 | Big ticket 3: Front end html work/organization |   |
-|------------------------------------------------|---|
 | Big ticket 4:                                  |   |
 
 ## Summary
