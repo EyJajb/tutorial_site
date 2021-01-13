@@ -8,7 +8,7 @@
 | Ticket 1: Data from python to html         |             |             |
 | Ticket 2: Form and post                    |             |             |
 | Ticket 3: Front end html work/organization |             |             |
-| Ticket 4:                                  |             |             |
+| Ticket 4: Equation/Logistical              |             |
 
 ## Summary
 
