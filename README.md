@@ -5,10 +5,10 @@
 
 | Big Tickets                                | Assigned to | Explanation |
 |--------------------------------------------|-------------|-------------|
-| Ticket 1: Data from python to html         |             |             |
-| Ticket 2: Form and post                    |             |             |
-| Ticket 3: Front end html work/organization |             |             |
-| Ticket 4: Equation/Logistical              |             |
+| Ticket 1: Data from python to html         | Ethan Sun   |             |
+| Ticket 2: Form and post                    | Luca Pinto  |             |
+| Ticket 3: Front end html work/organization | Diego Krenz |             |
+| Ticket 4: Equation/Logistical              | Naweid Hassanzadeh|
 
 ## Summary
 
