@@ -7,7 +7,7 @@
 |--------------------------------------------|-------------|-------------|
 | Ticket 1: Data from python to html         | Ethan Sun   |             |
 | Ticket 2: Form and post                    | Luca Pinto  |             |
-| Ticket 3: Front end html work/organization | Diego Krenz |             |
+| Ticket 3: Front end html work/organization | Diego Krenz |  I edited minor issues with the code. ie where ever there was a red ! I fixed what needed to be done. I also reorganized the tutorial pages to make them look better.           |
 | Ticket 4: Equation/Logistical              | Naweid Hassanzadeh|
 
 ## Summary
