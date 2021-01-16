@@ -21,7 +21,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def home_route():
-    return render_template("home.html", projects=projects.setup())
+    if not session.get('logged_in'):
+        return render_template('login.html')
+    else:
+        return render_template("home.html", projects=projects.setup())
 @app.route('/test/')
 def test_route():
     return render_template("test.html", projects=projects.setup())
