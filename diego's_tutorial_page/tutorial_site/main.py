@@ -20,10 +20,21 @@ app = Flask(__name__)
 
 @app.route('/')
 def home_route():
-    return render_template("home.html", projects=projects.setup())
+    if not session.get('logged_in'):
+        return render_template('login.html')
+    else:
+        return render_template("home.html", projects=projects.setup())
 @app.route('/test/')
 def test_route():
     return render_template("test.html", projects=projects.setup())
+
+@app.route('/login', methods=['POST', 'GET'])
+def do_admin_login():
+    if request.form['password'] == 'password' and request.form['username'] == 'admin':
+        session['logged_in'] = True
+    else:
+        flash('Wrong password!')
+    return home_route()
 
 @app.route('/calc/')
 def calc_route():
@@ -66,4 +77,5 @@ def showform():
 
 if __name__ == "__main__":
     #runs the application on the repl development server
+    app.secret_key = os.urandom(12)
     app.run(debug=True)
