@@ -2,7 +2,7 @@
 # Project Plan
 
 # Big Tickets
-
+1/11-1/15
 | Big Tickets                                | Assigned to | Explanation |
 |--------------------------------------------|-------------|-------------|
 | Ticket 1: Data from python to html         | Ethan Sun   | Created Class.html as a replacement for the 5 original pages https://github.com/EyJajb/tutorial_site/blob/main/diego's_tutorial_page/tutorial_site/templates/Class.html Relinked all class pages to Class.html in main.py https://github.com/EyJajb/tutorial_site/blob/main/diego's_tutorial_page/tutorial_site/main.py Images and descriptions moved to data.py for easier formatting and as an easier way of adding new information and classes https://github.com/EyJajb/tutorial_site/blob/main/diego's_tutorial_page/tutorial_site/data.py            |
