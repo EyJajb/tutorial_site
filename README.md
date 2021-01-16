@@ -5,6 +5,7 @@
 1/11-1/15
 
 Pi link: 192.168.1.40:8080
+Scrumboard: https://github.com/EyJajb/tutorial_site/projects/1
 
 | Big Tickets                                | Assigned to | Explanation |
 |--------------------------------------------|-------------|-------------|
