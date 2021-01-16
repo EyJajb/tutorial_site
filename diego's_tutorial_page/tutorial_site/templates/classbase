@@ -37,6 +37,9 @@
     <a class="dropdown-item" aria-labelledby="navbarDropdownMenuLink" href="/form">
         Submit a class
     </a>
+    <a class="dropdown-item" aria-labelledby="navbarDropdownMenuLink" href="/login">
+        Login
+    </a>
 </nav>
 <div class="row" style="padding-left: 10%;">
     <div class="col-4">
