@@ -71,7 +71,7 @@
 </head>
 
 <body>
-<h1 style="color:white;font-family:verdana" >Please Log In</h1>
+<h1 style="color:white;font-family:verdana" >Create Account</h1>
 <form action="/login" method="post">
     <div class="login">
         <div class="login-screen">
@@ -86,9 +86,24 @@
                     <input class="login-field" name="password" placeholder="password" type="password" value="">
                     <label class="login-field-icon fui-lock" for="login-pass"></label>
                 </div>
-                <input style= "color:white" class="btn btn-primary btn-large btn-block" type="submit" value="Log in">
-            </div>
-            <p>username is "admin" password is "password"</p>
+		<div class="col-1">
+			<input style= "color:white" class="btn btn-primary btn-large btn-block" type="submit" value="Submit">
+		  </div>         
+ 		</div>
+<div class="row" style="font:bold;">
+<div class="col-1">Student ID</div>
+<div class="col-3">Username</div>
+<div class="col-2">Password</div>
+</div>
+
+            {% for i in data %}
+		<div class="row">
+<div class="col-1">{{i[0]}}</div>
+<div class="col-3">{{i[1]}}</div>
+<div class="col-2">{{i[2]}}</div>
+    			
+		</div>
+	    {% endfor %}
         </div>
     </div>
 </form>
