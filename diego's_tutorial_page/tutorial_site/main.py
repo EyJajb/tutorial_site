@@ -4,6 +4,12 @@ import projects #projects definitions are placed in different file
 import cgi, cgitb
 
 # Create instance of FieldStorage
+from pip._vendor import requests
+
+from views.restapi import restapi_bp
+from flask import render_template
+from models.lessons import menus
+import requests
 form = cgi.FieldStorage()
 # Get data from fields
 name = form.getvalue('name')
@@ -72,7 +78,15 @@ def showform():
     description = request.args.get('description')
     return render_template("showform.html", title=title , description=description , category=category)
 
-
+@restapi_bp.route('/joke',  methods=['GET', 'POST'])
+def joke():
+    # call to random joke web api
+    url = 'https://official-joke-api.appspot.com/jokes/programming/random'
+    response = requests.get(url)
+    # formatting variables from return
+    setup = response.json()[0]['setup']
+    punchline = response.json()[0]['punchline']
+    return render_template("restapi/joke.html", menus=menus,  setup=setup, punchline=punchline)
 
 
 if __name__ == "__main__":
