@@ -4,12 +4,6 @@ import projects #projects definitions are placed in different file
 import cgi, cgitb
 import mysql.connector
 
-
-mydb = students_tbl.connector.connect(
-    students="students_id",
-    password="password",
-)
-
 # Create instance of FieldStorage
 from pip._vendor import requests
 
@@ -25,6 +19,21 @@ import os
 app = Flask(__name__)
 
 
+
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="tutoruser",
+  password="eyjajb1234",
+  database="tutordb"
+)
+
+def function(u, p):
+     mycursor = mydb.cursor()
+     sql = "INSERT INTO students_tbl (username, password) VALUES (%s, %s)"
+     val = (u,p)
+     mycursor.execute(sql, val)
+     mydb.commit()
+
 @app.route('/')
 def home_route():
     return render_template("home.html", projects=projects.setup())
@@ -35,25 +44,20 @@ def home_route():
 @app.route('/test/')
 def test_route():
     return render_template("test.html", projects=projects.setup())
+#, username=request.form['username'], password=request.form['password']
 
 @app.route('/login', methods=['POST', 'GET'])
 def do_admin_login():
-    mycursor = mydb.cursor()
+     mycursor = mydb.cursor()
+     mycursor.execute("SELECT * FROM students_tbl")
+     myresult = mycursor.fetchall()
+     # for x in myresult:
+        #  print(x)
+     if request.method == 'POST':
+	     return render_template('login.html', a=function(request.form['username'], request.form['password']), data=myresult)
+     else:
+	     return render_template('login.html')
 
-    sql = "INSERT INTO students_tbl (students_id, password) VALUES (%s, %s)"
-    val = (request.form['username'] , request.form['password'])
-    mycursor.execute(sql, val)
-
-    mydb.commit()
-    return render_template('login.html', )
-
-    print(request.form['username'])
-    print(request.form['password'])
-    #if request.form['password'] == 'password' and request.form['username'] == 'admin':
-     #   session['logged_in'] = True
-    #else:
-     #   flash('Wrong password!')
-    #return home_route()
 
 @app.route('/form', methods=['POST', 'GET'])
 def form():
@@ -91,7 +95,7 @@ def showform():
     description = request.args.get('description')
     return render_template("showform.html", title=title , description=description , category=category)
 
-@restapi_bp.route('/joke',  methods=['GET', 'POST'])
+@app.route('/joke/',  methods=['GET', 'POST'])
 def joke():
     # call to random joke web api
     url = 'https://official-joke-api.appspot.com/jokes/programming/random'
@@ -99,10 +103,10 @@ def joke():
     # formatting variables from return
     setup = response.json()[0]['setup']
     punchline = response.json()[0]['punchline']
-    return render_template("restapi/joke.html", menus=menus,  setup=setup, punchline=punchline)
+    return render_template("joke.html", setup=setup, punchline=punchline)
 
 
 if __name__ == "__main__":
     #runs the application on the repl development server
     app.secret_key = os.urandom(12)
-    app.run(debug=True)
+    app.run(debug=True,host='192.168.1.40',port='8080')
