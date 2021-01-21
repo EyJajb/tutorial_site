@@ -2,13 +2,17 @@
 # Project Plan
 
 # Big Tickets
+1/11-1/15
+
+Pi link: 192.168.1.40:8080
+Scrumboard: https://github.com/EyJajb/tutorial_site/projects/1
 
 | Big Tickets                                | Assigned to | Explanation |
 |--------------------------------------------|-------------|-------------|
-| Ticket 1: Data from python to html         | Ethan Sun   |             |
+| Ticket 1: Data from python to html         | Ethan Sun   | Created Class.html as a replacement for the 5 original pages https://github.com/EyJajb/tutorial_site/blob/main/diego's_tutorial_page/tutorial_site/templates/Class.html Relinked all class pages to Class.html in main.py https://github.com/EyJajb/tutorial_site/blob/main/diego's_tutorial_page/tutorial_site/main.py Images and descriptions moved to data.py for easier formatting and as an easier way of adding new information and classes https://github.com/EyJajb/tutorial_site/blob/main/diego's_tutorial_page/tutorial_site/data.py            |
 | Ticket 2: Form and post                    | Luca Pinto  |  Created a login page where the user before entering the site needs to input a secret username and password in a form I created which would then send this information to the backend where it would be checked, and if correct the user could then continue to the main content of the website. In order to run/evaluate this code, the username is "admin" and password is "password". The user in the future will be able to signup which will change these two values, but for now these are the set values that will allow yoou to enter the main content. If entered wrong, the website will reload that page and ask you for the username and password again until you get it right, without getting these right the user will be unable to enter the rest of the website. Here is a link to my login code: https://github.com/EyJajb/tutorial_site/blob/ff459fd3215808760ec75e08ef78970cd6d1e917/diego's_tutorial_page/tutorial_site/templates/login.html#L1      |
-| Ticket 3: Front end html work/organization | Diego Krenz |  I edited minor issues with the code. ie where ever there was a red ! I fixed what needed to be done. I also reorganized the tutorial pages to make them look better.           |
-| Ticket 4: Equation/Logistical              | Naweid Hassanzadeh|
+| Ticket 3: Front end html work/organization | Diego Krenz |  I edited minor issues with the code. ie where ever there was a red ! I fixed what needed to be done. I also reorganized the tutorial pages to make them look better. One of the few template pages Diego edited: https://github.com/EyJajb/tutorial_site/blob/main/diego's_tutorial_page/tutorial_site/templates/APCalcAB.html(edits done on this page was moved over to Class.html with help from Ethan: https://github.com/EyJajb/tutorial_site/blob/main/diego's_tutorial_page/tutorial_site/templates/Class.html)            |
+| Ticket 4: Equation/Logistical              | Naweid Hassanzadeh|  Created transfer.py which is basically a file for an equation that I created. For this, the user would input 8 true or false answers. After, the equation would change this into binary and then decimal. 
 
 ## Summary
 
@@ -25,5 +29,5 @@ https://github.com/EyJajb/tutorial_site/projects/1
 CB Big Idea #2 and #3. The technical requirements for Trimester 2 include coding in Python and extending Python beyond fundamentals and simple Web Site in trimester one.  Now students should consider advancing logic in system to use SQLArchemy database.  Big Ticket features should consider Backend Code to support routes, database requirements, data driven UI's, and filtering/searching/analyzing large quantities of data.
 CB Big Idea #3.  UI design and presentation to user is a Big Ticket item.  Students have been instructed to create story boards to consider what the visuals will look like before they start to code.  HTML, CSS, and Java Script can be used in UI design.
 Big Idea #4.  Student will deploy Web Site on Raspberry Pi server. The Hypertext Transfer Protocol (HTTP) is used to enable communications between clients and servers.  HTTP methods GET is used to request data, HTTP POST is used to update data.  Internet routing and user access considerations should be considered in design.
-Big Idea #5.  Consider impact of your system in things like Night at the Museum or other opportunities to use this project to bolster your personal and team profile.  Also, consider credits to others that have assisted in producing your work.
+Big Idea #5.  Consider impact of your system in things like  Night at the Museum or other opportunities to use this project to bolster your personal and team profile.  Also, consider credits to others that have assisted in producing your work.
 

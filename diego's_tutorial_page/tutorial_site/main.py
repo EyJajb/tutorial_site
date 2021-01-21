@@ -2,6 +2,7 @@ import projects #projects definitions are placed in different file
 #import data
 # Import modules for CGI handling
 import cgi, cgitb
+from data import *
 
 # Create instance of FieldStorage
 from pip._vendor import requests
@@ -44,19 +45,19 @@ def do_admin_login():
 
 @app.route('/calc/')
 def calc_route():
-    return render_template("APCalcAB.html", projects=projects.setup())
+    return render_template("Class.html", projects=projects.setup(), data1=calc)
 @app.route('/phys/')
 def phys_route():
-    return render_template("APPhysicsC.html", projects=projects.setup())
+    return render_template("Class.html", projects=projects.setup(), data1=phys)
 @app.route('/euro/')
 def euro_route():
-    return render_template("APEuro.html", projects=projects.setup())
+    return render_template("Class.html", projects=projects.setup(), data1=euro)
 @app.route('/hist/')
 def hist_route():
-    return render_template("USHistory.html", projects=projects.setup())
+    return render_template("Class.html", projects=projects.setup(), data1=hist)
 @app.route('/precalc/')
 def precalc_route():
-    return render_template("Precalc.html", projects=projects.setup())
+    return render_template("Class.html", projects=projects.setup(), data1=pcalc)
 
 @app.route('/form', methods=['POST', 'GET'])
 def form():
