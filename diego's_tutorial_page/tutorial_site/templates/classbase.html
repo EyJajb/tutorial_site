@@ -26,10 +26,11 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="/calc/">AP Calc AB</a>
-                    <a class="dropdown-item" href="/physics/">AP Physics</a>
+                    <a class="dropdown-item" href="/phys/">AP Physics</a>
                     <a class="dropdown-item" href="/euro/">AP European History</a>
                     <a class="dropdown-item" href="/precalc/">Pre-calculus</a>
                     <a class="dropdown-item" href="/hist/">US History</a>
+                    <a class="dropdown-item" href="/joke/">Funny Joke</a>
                     </adiv>
             </li>
         </ul>
@@ -37,22 +38,25 @@
     <a class="dropdown-item" aria-labelledby="navbarDropdownMenuLink" href="/form">
         Submit a class
     </a>
-    <a class="dropdown-item" aria-labelledby="navbarDropdownMenuLink" href="/login">
-        Login
+    <a class="navbar-brand" href="/login">
+        Create Account (WIP)
     </a>
 </nav>
+{% block title %}
+{% endblock %}
 <div class="row" style="padding-left: 10%;">
+
     <div class="col-4">
         {% block hotspot1 %}
         {% endblock %}
     </div>
 
-    <div class="col-5">
+    <div class="col-4">
         {% block hotspot2 %}
         {% endblock %}
     </div>
 
-    <div class="col-5">
+    <div class="col-4">
         {% block hotspot3 %}
         {% endblock %}
     </div>
