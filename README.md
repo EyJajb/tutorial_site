@@ -1,6 +1,17 @@
 # P2-Cowboys Project
 # Project Plan
 
+# Tickets and Easter Egg
+
+| Tickets     | Assigned to | Explanation |
+|-------------|-------------|-------------|
+| Ticket 1:   |             |             |
+| Ticket 2:   |             |             |
+| Ticket 3:   |             |             |
+| Ticket 4:   |             |             |
+
+Easter Egg:
+
 # Big Tickets
 1/11-1/15
 
