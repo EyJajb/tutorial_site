@@ -4,12 +4,12 @@
 # Tickets and Easter Egg
 1/25-1/29
 
-| Tickets     | Assigned to | Explanation |
-|-------------|-------------|-------------|
-| Ticket 1:   |             |             |
-| Ticket 2:   |             |             |
-| Ticket 3:   |             |             |
-| Ticket 4:   |             |             |
+| Big Tickets                                                 | Assigned to        | Explanation |
+|-------------------------------------------------------------|--------------------|-------------|
+| Ticket 1: Front end - organization and removing white space | Luca Pinto         |             |
+| Ticket 2: Back end - sending data to function               | Naweid Hassanzadeh |             |
+| Ticket 3: Metadata - add to metadata table                  | Ethan Sun          |             |
+| Ticket 4: API - Be able to add more jokes                   | Diego Krenz        |             |
 
 Easter Egg:
 
