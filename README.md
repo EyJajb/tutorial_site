@@ -9,7 +9,7 @@
 | Ticket 1: Front end - organization and removing white space | Luca Pinto         |             |
 | Ticket 2: Back end - sending data to function               | Naweid Hassanzadeh |             |
 | Ticket 3: Metadata - add to metadata table                  | Ethan Sun          |             |
-| Ticket 4: API - Be able to add more jokes                   | Diego Krenz        |             |
+| Ticket 4: API - Be able to add more jokes                   | Diego Krenz        |    Add the same thing used for the username and password but instead the user is able to add jokes         |
 
 Easter Egg:
 
