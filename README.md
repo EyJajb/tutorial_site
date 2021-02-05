@@ -34,7 +34,7 @@ Scrumboard: https://github.com/EyJajb/tutorial_site/projects/1
 
 ## Delieverly plans and how we are going to do the big ticket items
 
--Every Week on monday we will set a goal for that week and we will have it done by thursday so that on friday we can make sure it works and also brainstorm what we intend to do the next week.  By the Mid Term mark we will have the basic part of the website done like all the pages with tutorials and videos, so that the rest of the trimester we can add the other harder requirements. Working hard in the beginning of the Trimester to get most of the project done will allow for us to work together and take our time to complete the harder or unfamiliar requirements like SQL and Internet Domain.  Then by N@M we will have a raspberry pi up so that we can share our project with others.
+-Every Week on monday we will set a goal for that week and we will have it done by thursday so that on friday we can make sure it works and also brainstorm what we intend to do the next week.  By the Mid Term mark we will have the basic part of the website done like all the pages with tutorials and videos, so that the rest of the trimester we can add the other harder requirements. Working hard in the beginning of the Trimester to get most of the project done will allow for us to work together and take our time to complete the harder or unfamiliar requirements like SQL and Internet Domain.   Then by N@M we will have a raspberry pi up so that we can share our project with others.
 
 # Scrum Board Tracking sheet
 https://github.com/EyJajb/tutorial_site/projects/1
