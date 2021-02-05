@@ -8,7 +8,7 @@
 |-------------------------------------------------------------|--------------------|-------------|
 | Ticket 1: Front end - organization and removing white space | Luca Pinto         |Link To Ticket: https://github.com/EyJajb/tutorial_site/projects/1#card-52452951 First File Changed: https://github.com/EyJajb/tutorial_site/blob/4a35a2f89af99ffad029046274668f9fe4cbcaa9/diego's_tutorial_page/tutorial_site/templates/login.html#L35 Second File Changed: https://github.com/EyJajb/tutorial_site/blob/a73c42c66cf9072da5b7743b5e59f6a89343491d/diego's_tutorial_page/tutorial_site/templates/showform.html#L17 Third File Changed: https://github.com/EyJajb/tutorial_site/blob/a73c42c66cf9072da5b7743b5e59f6a89343491d/diego's_tutorial_page/tutorial_site/templates/form.html#L22 
 | Ticket 2: Back end - sending data to function               | Naweid Hassanzadeh |Function to turn a checkbox value into a 1 or 0:
-https://github.com/EyJajb/tutorial_site/blob/main/diego's_tutorial_page/tutorial_site/main.py#L39 Sending variables to be encoded with a function from transfer.py: https://github.com/EyJajb/tutorial_site/blob/main/diego's_tutorial_page/tutorial_site/main.py#L65
+ a https://github.com/EyJajb/tutorial_site/blob/main/diego's_tutorial_page/tutorial_site/main.py#L39 Sending variables to be encoded with a function from transfer.py:  a https://github.com/EyJajb/tutorial_site/blob/main/diego's_tutorial_page/tutorial_site/main.py#L65
 | Ticket 3: Metadata - add to metadata table                  | Ethan Sun          |
 | Ticket 4: API - Be able to add more jokes                   | Diego Krenz        |
 
