@@ -3,6 +3,8 @@ import projects #projects definitions are placed in different file
 # Import modules for CGI handling
 import cgi, cgitb
 import mysql.connector
+from transfer import encode
+from data import *
 
 # Create instance of FieldStorage
 from pip._vendor import requests
@@ -27,12 +29,18 @@ mydb = mysql.connector.connect(
   database="tutordb"
 )
 
-def function(u, p):
+def function(c, u, p):
      mycursor = mydb.cursor()
-     sql = "INSERT INTO students_tbl (username, password) VALUES (%s, %s)"
-     val = (u,p)
+     sql = "INSERT INTO students (classes, username, password) VALUES (%s, %s, %s)"
+     val = (c,u,p)
      mycursor.execute(sql, val)
      mydb.commit()
+     
+def binary(g):
+    if g:
+        return 1
+    else:
+        return 0
 
 @app.route('/')
 def home_route():
@@ -49,12 +57,12 @@ def test_route():
 @app.route('/login', methods=['POST', 'GET'])
 def do_admin_login():
      mycursor = mydb.cursor()
-     mycursor.execute("SELECT * FROM students_tbl")
+     mycursor.execute("SELECT * FROM students")
      myresult = mycursor.fetchall()
      # for x in myresult:
         #  print(x)
      if request.method == 'POST':
-	     return render_template('login.html', a=function(request.form['username'], request.form['password']), data=myresult)
+	     return render_template('login.html', a=function(encode(binary(request.form.get('1')),binary(request.form.get('2')),binary(request.form.get('3')),binary(request.form.get('4')),binary(request.form.get('5')),binary(request.form.get('6')),binary(request.form.get('7')),binary(request.form.get('8')),),request.form['username'], request.form['password']), data=myresult)
      else:
 	     return render_template('login.html')
 
@@ -87,6 +95,9 @@ def hist_route():
 @app.route('/precalc/')
 def precalc_route():
     return render_template("Class.html", projects=projects.setup(), data1=pcalc)
+@app.route('/eeg/')
+def egg_route():
+    return render_template("egg.html", projects=projects.setup())
 
 @app.route('/showform', methods=['POST', 'GET'])
 def showform():
@@ -110,3 +121,4 @@ if __name__ == "__main__":
     #runs the application on the repl development server
     app.secret_key = os.urandom(12)
     app.run(debug=True,host='192.168.1.40',port='8080')
+
