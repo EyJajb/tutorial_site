@@ -11,6 +11,7 @@
 | Ticket 3: Metadata - add to metadata table                  | Ethan Sun          | Link To Ticket: https://github.com/EyJajb/tutorial_site/projects/1#card-53688131 "function" function used to add encoded data into the sql: https://github.com/EyJajb/tutorial_site/blob/main/diego's_tutorial_page/tutorial_site/main.py#L65 8 check boxes for 8 according classes are added: https://github.com/EyJajb/tutorial_site/blob/main/diego's_tutorial_page/tutorial_site/templates/login.html#L92
 | Ticket 4: Easter Egg                                        | Diego Krenz        | Link To Ticket: https://github.com/EyJajb/tutorial_site/projects/1#card-54336007 Location of the easter egg(it's on the coffee cup on the image): https://github.com/EyJajb/tutorial_site/blob/main/diego's_tutorial_page/tutorial_site/templates/home.html#L32 Easter egg page: https://github.com/EyJajb/tutorial_site/blob/main/diego's_tutorial_page/tutorial_site/templates/egg.html
 
+Domain name: cometpros.com
 
 Easter Egg:
 
