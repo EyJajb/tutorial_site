@@ -30,10 +30,14 @@
      text-shadow: 2px 2px black;
  }
  .box {
+     display: block;
      background-image: url('https://wlcoller.co.uk/wp-content/uploads/2015/02/Green-Parchment-200gsm-Card.jpg');
      color: black;
      border: 5px solid blue;
      padding: 10px;
+     width: 200px;
+     word-wrap: normal;
+     white-space: pre-wrap;
  }
 </style>
 </head>
@@ -54,9 +58,9 @@
 <div class="box">
     <h2>{{i.topic}}</h2>
     <img src="{{i.img}}">
-    <pre style="color:DarkSlateGrey; font-size: 12pt">
+    <p style="color:DarkSlateGrey; font-size: 12pt; word-wrap: break-word; width: 200px; display: block;">
         {{i.description}}
-    </pre>
+    </p>
     <hr>
 </div>
 {% endfor %}
