@@ -26,7 +26,7 @@ euro = [{"topic": "The French Revolution",
          "video": "none", #put none if no video is included
          "description": "The French Revolution is one the biggest chapters in AP Euro history and can also be considered one of the hardest. This chapter will explain the fall of the old regime and how it went through its different phases in order to get where it is today."
          },
-        {"topic": "",
+        {"topic": "The Enlightenment",
          "img": "https://www.onlinemathlearning.com/image-files/basic-derivative-rules.png",
          "sizex": 1,"sizey": 1,
          "video": "none", #put none if no video is included
