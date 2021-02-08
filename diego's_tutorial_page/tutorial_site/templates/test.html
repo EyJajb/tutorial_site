@@ -27,6 +27,59 @@ Hello <!doctype html>
 
 
 {% block pageContent %}
+<form action="/login" method="post">
+    <div class="login">
+        <div class="login-screen">
+            <div class="app-title">
+            </div>
+            <div class="login-form">
+                <div class="control-group">
+                    <input class="login-field" name="username" placeholder="username" type="text" value="">
+                    <label class="login-field-icon fui-user" for="login-name"></label>
+                </div>
+                <div class="control-group">
+                    <input class="login-field" name="password" placeholder="password" type="password" value="">
+                    <label class="login-field-icon fui-lock" for="login-pass"></label>
+                </div>
+		<div class="row" style="font:bold;">
+			<div class="col-1">
+				<input type="checkbox" id="1" name="1" value="ii">
+				<label for="1"> Class I</label>
+			</div>
+			<div class="col-1">
+				<input type="checkbox" id="2" name="2" value="ii">
+				<label for="2"> Class II</label>
+			</div>
+			<div class="col-1">
+				<input type="checkbox" id="3" name="3" value="ii">
+				<label for="3"> Class III</label>
+			</div>
+			<div class="col-1">
+				<input type="checkbox" id="4" name="4" value="ii">
+				<label for="4"> Class IV</label>
+			</div>
+			<div class="col-1">
+				<input type="checkbox" id="5" name="5" value="ii">
+				<label for="5"> Class V</label>
+			</div>
+			<div class="col-1">
+				<input type="checkbox" id="6" name="6" value="ii">
+				<label for="6"> Class VI</label>
+			</div>
+			<div class="col-1">
+				<input type="checkbox" id="7" name="7" value="ii">
+				<label for="7"> Class VII</label>
+			</div>
+			<div class="col-1">
+				<input type="checkbox" id="8" name="8" value="ii">
+				<label for="8"> Class VIII</label>
+			</div>
+		</div>
+	<div class="col-1">
+		<input style= "color:white" class="btn btn-primary btn-large btn-block" type="submit" value="Submit">
+	</div>         
+ </div>
+            
     <b>Feedback Form  </b>  <br>
     <form action="testing" method="post" style="margin: 35px; border: 2px solid darkblue; padding: 25px; background:powderblue">
         Hows the website so far?
