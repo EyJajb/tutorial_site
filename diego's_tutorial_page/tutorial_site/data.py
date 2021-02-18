@@ -64,11 +64,11 @@ phys = [{"topic": "Kinematic Equations",
          "video": "none", #put none if no video is included
          "description": "The Kinematic Equations are 4 equations that are relationships between initial and final velocity, time, distance and acceleration. They help simplify the calculations  of these different pneumonia. Here is a video tutorial that provides more explaining and practice problems: https://www.youtube.com/watch?v=Po7li9JbEsQ"
          },
-        {"topic": "Kinematic Equations",
-         "img": "https://www.physicsclassroom.com/Class/1DKin/U1L6a1.gif",
+        {"topic": "Newton's Second Law",
+         "img": "https://www.grc.nasa.gov/www/k-12/rocket/Images/newton2r.gif",
          "sizex": 1,"sizey": 1,
          "video": "none", #put none if no video is included
-         "description": "The Kinematic Equations are 4 equations that are relationships between initial and final velocity, time, distance and acceleration. They help simplify the calculations of these different pneumonia. Here is a video tutorial that provides more explaining and practice problems: https://www.youtube.com/watch?v=Po7li9JbEsQ"
+         "description": "Newton's second law is Force = Mass X Acceleration.  This is usful because you can find either force, mass or acceleration if you know 2 of the other ones."
          },
         {"topic": "Kinematic Equations",
          "img": "https://www.physicsclassroom.com/Class/1DKin/U1L6a1.gif",
