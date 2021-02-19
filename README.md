@@ -1,5 +1,14 @@
 # P2-Cowboys Project
-# Project Plan
+
+# Tickets, Crossover and Code review
+2/14- 2/19
+
+| Tickets worked on                                                 | Assigned to        |  Explanation |
+|-------------------------------------------------------------|--------------------|-------------|
+| Ticket 1:  | Luca Pinto         |Link To Ticket:
+| Ticket 2: | Naweid Hassanzadeh |Link To Ticket: 
+| Ticket 3:                | Ethan Sun          | Link To Ticket: 
+| Ticket 4: | Diego Krenz        | Link To Ticket: 
 
 # Tickets and Easter Egg
 1/25-1/29
