@@ -10,10 +10,11 @@
 |   | Ethan Sun          | Link To Ticket: 
 | New AP Physics page | Diego Krenz        | Link To Ticket: https://github.com/EyJajb/tutorial_site/projects/1#card-55295074 File changed: https://github.com/EyJajb/tutorial_site/blob/5e991f43b8af6f588632e26de7d18aa4608ebfdd/diego's_tutorial_page/tutorial_site/data.py#L61 I made a tutorial to another class, AP Physics. I included pictures, explained each topic, and formated the page to make it like good. 
 
-Link to the AP Requirements reflection: https://docs.google.com/document/d/1RcJ4B1kmG0f-qfyLEMP_0UhrD2_zm1h8ICLaDUgsgBg/edit?usp=sharing
+Link to the AP Requirements reflection: https://docs.google.com/document/d/1RcJ4B1kmG0f-qfyLEMP_0UhrD2_zm1h8ICLaDUgsgBg/edit?usp=sharing 
 Gaels peer grade sheet: https://docs.google.com/document/d/117AKTccZp7Peo5a3C_LNKq7VBumT4ZOFs7_FL29IlCQ/edit?usp=sharing
 |  Advice we got from Gaels | What we added to project|
 |---------------------------|-------------------------|
+|Have better “look” of website, meaning make it more aesthetic or appealing to look at| |
 
 # Tickets and Easter Egg
 1/25-1/29
