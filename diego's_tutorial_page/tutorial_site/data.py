@@ -70,11 +70,11 @@ phys = [{"topic": "Kinematic Equations",
          "video": "none", #put none if no video is included
          "description": "Newton's second law is Force = Mass X Acceleration.  This is usful because you can find either force, mass or acceleration if you know 2 of the other ones."
          },
-        {"topic": "Kinematic Equations",
-         "img": "https://www.physicsclassroom.com/Class/1DKin/U1L6a1.gif",
+        {"topic": "Circular Motion",
+         "img": "https://www.dummies.com/wp-content/uploads/329688.image0.png",
          "sizex": 1,"sizey": 1,
          "video": "none", #put none if no video is included
-         "description": "The Kinematic Equations are 4 equations that are relationships between initial and final velocity, time, distance and  acceleration. They help simplify the calculations of these different pneumonia. Here is a video tutorial that provides more explaining and practice problems: https://www.youtube.com/watch?v=Po7li9JbEsQ"
+         "description": "This equations allows you to solve for acceleration, velocity, displacement, and motion in both linear and angular forms"
          }
         ]
 pcalc = [{"topic": "Trig",
