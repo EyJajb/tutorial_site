@@ -8,7 +8,9 @@
 | Ticket 1:  | Luca Pinto         |Link To Ticket:
 | Ticket 2: | Naweid Hassanzadeh |Link To Ticket: 
 | Ticket 3:                | Ethan Sun          | Link To Ticket: 
-| Ticket 4: | Diego Krenz        | Link To Ticket: I made a tutorial to another class, AP Physics. I included pictures, explained each topic, and formated the page to make it like good. https://github.com/EyJajb/tutorial_site/blob/5e991f43b8af6f588632e26de7d18aa4608ebfdd/diego's_tutorial_page/tutorial_site/data.py#L61
+| Ticket 4: | Diego Krenz        | Link To Ticket: https://github.com/EyJajb/tutorial_site/projects/1#card-55295074
+File changed: https://github.com/EyJajb/tutorial_site/blob/5e991f43b8af6f588632e26de7d18aa4608ebfdd/diego's_tutorial_page/tutorial_site/data.py#L61
+I made a tutorial to another class, AP Physics. I included pictures, explained each topic, and formated the page to make it like good. 
 
 # Tickets and Easter Egg
 1/25-1/29
