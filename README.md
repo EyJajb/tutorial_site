@@ -16,7 +16,8 @@ Gaels peer grade sheet: https://docs.google.com/document/d/117AKTccZp7Peo5a3C_LN
 
 |  Advice we got from Gaels | What we added to project|
 |---------------------------|-------------------------|
-|Have better “look” of website, meaning make it more aesthetic or appealing to look at| |
+|Have better “look” of website, meaning make it more aesthetic or appealing to look at||
+|test|a|
 
 # Tickets and Easter Egg
 1/25-1/29
