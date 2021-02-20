@@ -115,3 +115,40 @@ stats = [{"topic": "experimental design",
           "description": "A matched pairs design is a special case of a randomized block design. It can be used when the experiment has only two treatment conditions; and subjects can be grouped into pairs, based on some blocking variable. Then, within each pair, subjects are randomly assigned to different treatments."
           }
          ]
+csip = [{"topic": "The 4 big ideas:",
+          "img": "",
+          "sizex": 1,"sizey": 1,
+          "video": "<iframe width="560" height="315" src="https://www.youtube.com/embed/vvhvEz_nz2k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>", #put none if no video is included
+          "description": "The five big ideas are essential to remember and understand when taking AP CSI Principles. These are 5 ideas that help you understand what needs to be used in creating a web project or just any computer science project."
+          },
+         {"topic": "Big idea 1: Creativity",
+          "img": "https://conjointly.com/kb/Assets/images/expblk.gif",
+          "sizex": 1,"sizey": 1,
+          "video": "none", #put none if no video is included
+          "description": "Creativity is a necessity in CSI as it helps you figure out how to solve problems faster and to keep visitors around"
+          },
+         {"topic": "Big idea 2: Data",
+          "img": "https://statisticsguruonline.com/wp-content/uploads/2019/05/marched-pairs-design-example.png",
+          "sizex": 1,"sizey": 1,
+          "video": "<iframe width="560" height="315" src="https://www.youtube.com/embed/F6JD9nOHqvY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>", #put none if no video is included
+          "description": "A matched pairs design is a special case of a randomized block design. It can be used when the experiment has only two treatment conditions; and subjects can be grouped into pairs, based on some blocking variable. Then, within each pair, subjects are randomly assigned to different treatments."
+          }
+          {"topic": "Big idea 3: Algorithms and programming",
+          "img": "",
+          "sizex": 1,"sizey": 1,
+          "video": "<iframe width="560" height="315" src="https://www.youtube.com/embed/KCbbQQ8kCLw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>", #put none if no video is included
+          "description": "With a randomized block design, the experimenter divides subjects into subgroups called blocks, such that the variability within blocks is less than the variability between blocks. Then, subjects within each block are randomly assigned to treatment conditions."
+          },
+          {"topic": "Big idea 4: Computer systems and programming",
+          "img": "",
+          "sizex": 1,"sizey": 1,
+          "video": "<iframe width="560" height="315" src="https://www.youtube.com/embed/oC1JEEmRuL4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>", #put none if no video is included
+          "description": "Knowlege of computer systems and how servers are being run is essential to running your own server and your own databases. Here is a video that goes into more detail about this big idea"
+          },
+          {"topic": "Big idea 5: Impacts of computing",
+          "img": "https://statisticsguruonline.com/wp-content/uploads/2019/05/marched-pairs-design-example.png",
+          "sizex": 1,"sizey": 1,
+          "video": "none", #put none if no video is included
+          "description": "A matched pairs design is a special case of a randomized block design. It can be used when the experiment has only two treatment conditions; and subjects can be grouped into pairs, based on some blocking variable. Then, within each pair, subjects are randomly assigned to different treatments."
+          }
+         ]
