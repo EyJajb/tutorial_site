@@ -96,8 +96,11 @@ def hist_route():
 def precalc_route():
     return render_template("Class.html", projects=projects.setup(), data1=pcalc)
 @app.route('/stat/')
-def precalc_route():
+def stat_route():
     return render_template("Class.html", projects=projects.setup(), data1=stats)
+@app.route('/csip/')
+def csip_route():
+    return render_template("Class.html", projects=projects.setup(), data1=csip)
 @app.route('/eeg/')
 def egg_route():
     return render_template("egg.html", projects=projects.setup())
