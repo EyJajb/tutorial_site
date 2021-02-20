@@ -17,7 +17,8 @@ Gaels peer grade sheet: https://docs.google.com/document/d/117AKTccZp7Peo5a3C_LN
 |  Advice we got from Gaels | What we added to project|
 |---------------------------|-------------------------|
 |Have better “look” of website, meaning make it more aesthetic or appealing to look at||
-|test|a|
+|Add Who am I in compsci? to the easter egg page| Link to our changed page: https://github.com/EyJajb/tutorial_site/blob/main/diego's_tutorial_page/tutorial_site/templates/egg.html#L64|
+|Make “submit a class” page a private page||
 
 # Tickets and Easter Egg
 1/25-1/29
