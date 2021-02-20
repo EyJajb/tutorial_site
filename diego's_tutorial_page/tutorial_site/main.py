@@ -97,7 +97,7 @@ def precalc_route():
     return render_template("Class.html", projects=projects.setup(), data1=pcalc)
 @app.route('/stat/')
 def precalc_route():
-    return render_template("Class.html", projects=projects.setup(), data1=stat)
+    return render_template("Class.html", projects=projects.setup(), data1=stats)
 @app.route('/eeg/')
 def egg_route():
     return render_template("egg.html", projects=projects.setup())
