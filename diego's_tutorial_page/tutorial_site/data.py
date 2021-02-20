@@ -96,4 +96,22 @@ pcalc = [{"topic": "Trig",
           "description": "Parametric Equations any of a set of equations that express the coordinates of the points of a curve as functions of one parameter or that express the coordinates of the points of a surface as functions of two parameters."
           }
          ]
-
+stats = [{"topic": "experimental design",
+          "img": "http://khsapstats.weebly.com/uploads/3/8/5/3/3853479/8522530_orig.gif",
+          "sizex": 1,"sizey": 1,
+          "video": "none", #put none if no video is included
+          "description": "Data for statistical studies are obtained by conducting either experiments or surveys. Experimental design is the branch of statistics that deals with the design and analysis of experiments."
+          },
+         {"topic": "Randomized Block Design",
+          "img": "https://conjointly.com/kb/Assets/images/expblk.gif",
+          "sizex": 1,"sizey": 1,
+          "video": "none", #put none if no video is included
+          "description": "With a randomized block design, the experimenter divides subjects into subgroups called blocks, such that the variability within blocks is less than the variability between blocks. Then, subjects within each block are randomly assigned to treatment conditions."
+          },
+         {"topic": "Matched Pairs Design",
+          "img": "https://statisticsguruonline.com/wp-content/uploads/2019/05/marched-pairs-design-example.png",
+          "sizex": 1,"sizey": 1,
+          "video": "none", #put none if no video is included
+          "description": "A matched pairs design is a special case of a randomized block design. It can be used when the experiment has only two treatment conditions; and subjects can be grouped into pairs, based on some blocking variable. Then, within each pair, subjects are randomly assigned to different treatments."
+          }
+         ]
