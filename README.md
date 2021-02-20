@@ -6,7 +6,7 @@
 | Tickets worked on                                                 | Assigned to        |  Explanation |
 |-------------------------------------------------------------|--------------------|-------------|
 |   | Luca Pinto         |Link To Ticket:
-| | Naweid Hassanzadeh |Link To Ticket: 
+| | Naweid Hassanzadeh |Link To Ticket: https://github.com/EyJajb/tutorial_site/projects/1#card-55316567 File changed: 
 |   | Ethan Sun          | Link To Ticket: 
 | New AP Physics page | Diego Krenz        | Link To Ticket: https://github.com/EyJajb/tutorial_site/projects/1#card-55295074 File changed: https://github.com/EyJajb/tutorial_site/blob/5e991f43b8af6f588632e26de7d18aa4608ebfdd/diego's_tutorial_page/tutorial_site/data.py#L61  I made a tutorial to another class, AP Physics. I included pictures, explained each topic, and formated the page to make it like good. 
 
