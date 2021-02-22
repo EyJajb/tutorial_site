@@ -1,4 +1,15 @@
 # P2-Cowboys Project
+# Tickets
+2/22-2/26
+| Big Tickets                                                           | Assigned to        | Explanation |
+|-----------------------------------------------------------------------|--------------------|-------------|
+| Ticket 1: Work on login page to make the user logged in               | Ethan Sun          |             |
+| Ticket 2: Make sure the home page can tell if you've logged in or not | Luca Pinto         |             |
+| Ticket 3: Add class pages from data.py to home page                   | Naweid Hassanzadeh |             |
+| Ticket 4: Class page images fit/class page descriptions fit           | Diego Krenz        |             |
+
+
+
 
 # Tickets, Crossover and Code review
 2/14- 2/19
