@@ -1,4 +1,11 @@
 # P2-Cowboys Project
+#Commerical Script
+(Ethan screen shares the website)
+Ethan: Is Khan Academy too broad and confusing for you? Well today is your lucky day.
+Diego: Introducing the Period 2 Cowboy's tutorial page. It has 6 classes with tutorials designed for Del Norte classes. (On screen show a class)
+Nawied: You can make a login so you can save your progress and keep coming back. Also you can sumbit a video on a topic you think we should include.(On screen show the login thing and then the form thing) 
+Luca: Other features include a joke page and and easter egg. (On screen show them)
+
 # Tickets
 2/22-2/26
 | Big Tickets                                                           | Assigned to        | Explanation |
