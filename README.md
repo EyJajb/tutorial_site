@@ -1,7 +1,7 @@
-## P2-Cowboys Project
-# Is Khan Academy too broad and confusing for you? Well today is your lucky day. Introducing the Period 2 Cowboy's tutorial page. It has 6 classes with tutorials designed for Del Norte classes. You can make a login so you can save your progress and keep coming back. Also you can sumbit a video on a topic you think we should include. Other features include a joke page and and easter egg. 
+# P2-Cowboys Project
+## Is Khan Academy too broad and confusing for you? Well today is your lucky day. Introducing the Period 2 Cowboy's tutorial page. It has 6 classes with tutorials designed for Del Norte classes. You can make a login so you can save your progress and keep coming back. Also you can sumbit a video on a topic you think we should include. Other features include a joke page and and easter egg. 
 
-# Tickets
+## Tickets
 2/22-2/26
 | Big Tickets                                                           | Assigned to        | Explanation |
 |-----------------------------------------------------------------------|--------------------|-------------|
