@@ -10,7 +10,7 @@ Luca: Other features include a joke page and and easter egg. (On screen show the
 2/22-2/26
 | Big Tickets                                                           | Assigned to        | Explanation |
 |-----------------------------------------------------------------------|--------------------|-------------|
-| Ticket 1: Work on login page to make the user logged in               | Ethan Sun          |             |
+| Ticket 1: Work on login page to make the user logged in               | Ethan Sun          |    https://github.com/EyJajb/tutorial_site/blob/87207225dde573588b47822d5c62c8246c6ef3ff/diego's_tutorial_page/tutorial_site/templates/login.html#L79         |
 | Ticket 2: Make sure the home page can tell if you've logged in or not | Luca Pinto         |             |
 | Ticket 3: Add class pages from data.py to home page                   | Naweid Hassanzadeh |     https://github.com/EyJajb/tutorial_site/blob/3c952873bb216472ba83d5474ad4e0746eddee84/diego's_tutorial_page/tutorial_site/data.py#L8        |
 | Ticket 4: Class page images fit/class page descriptions fit           | Diego Krenz        |         Fixed up white spaces in the class pages. https://github.com/EyJajb/tutorial_site/blob/05f9c8e6f0ff3f5a3f74c9b011c9c9c95fc74531/diego's_tutorial_page/tutorial_site/templates/classpage.html#L60         |
