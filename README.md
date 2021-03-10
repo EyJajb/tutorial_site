@@ -2,7 +2,7 @@
 ## Is Khan Academy too broad and confusing for you? Well today is your lucky day. Introducing the Period 2 Cowboy's tutorial page. It has 6 classes with tutorials designed for Del Norte classes. You can make a login so you can save your progress and keep coming back. Also you can sumbit a video on a topic you think we should include. Other features include a joke page and and easter egg. 
 |Name|Reflection|
 |----|----------|
-|Naweid|  |
+|Naweid|I am glad that I was able to work with an amazing team and group who were always committed to making the best out of every class period. I got to learn a lot of new features and concepts with my team as well. My favorite part was the easter egg and having videos to help students. Overall, I feel like we did great on the project and communicated greatly.  |
 |Diego| I am happy with the result of our project. My favorite parts are the easter egg, login and class suggesting pages because they are cool features but also complex.  It is crazy how much I have learned this tri.  |
 |luca|  |
 |Ethan|  |
