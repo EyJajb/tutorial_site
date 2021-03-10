@@ -3,7 +3,7 @@
 |Name|Reflection|
 |----|----------|
 |Naweid|  |
-|Diego|   |
+|Diego| I am happy with the result of our project. My favorite parts are the easter egg, login and class suggesting pages because they are cool features but also complex.  It is crazy how much I have learned this tri.  |
 |luca|  |
 |Ethan|  |
 
