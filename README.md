@@ -5,7 +5,7 @@
 |Naweid|I am glad that I was able to work with an amazing team and group who were always committed to making the best out of every class period. I got to learn a lot of new features and concepts with my team as well. My favorite part was the easter egg and having videos to help students. Overall, I feel like we did great on the project and communicated greatly.  |
 |Diego| I am happy with the result of our project. My favorite parts are the easter egg, login and class suggesting pages because they are cool features but also complex.  It is crazy how much I have learned this tri.  |
 |luca|  |
-|Ethan|  |
+|Ethan| I'm suprised by just how much I've learned over this trimester. I've learned a lot of new HTML code with one of my favorites as making specific positions in an image a clickable link. Setting up a database was also very interesting for me as I had never thought creating a database would be so simple on a small computer like a pi. I've always imagined them as the large database servers.|
 
 ## Tickets
 2/22-2/26
