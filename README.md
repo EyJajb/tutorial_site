@@ -1,18 +1,19 @@
 # P2-Cowboys Project
-#Commerical Script
-(Ethan screen shares the website)
-Ethan: Is Khan Academy too broad and confusing for you? Well today is your lucky day.
-Diego: Introducing the Period 2 Cowboy's tutorial page. It has 6 classes with tutorials designed for Del Norte classes. (On screen show a class)
-Nawied: You can make a login so you can save your progress and keep coming back. Also you can sumbit a video on a topic you think we should include.(On screen show the login thing and then the form thing) 
-Luca: Other features include a joke page and and easter egg. (On screen show them)
+## Is Khan Academy too broad and confusing for you? Well today is your lucky day. Introducing the Period 2 Cowboy's tutorial page. It has 6 classes with tutorials designed for Del Norte classes. You can make a login so you can save your progress and keep coming back. Also you can sumbit a video on a topic you think we should include. Other features include a joke page and and easter egg. 
+|Name|Reflection|
+|----|----------|
+|Naweid|I am glad that I was able to work with an amazing team and group who were always committed to making the best out of every class period. I got to learn a lot of new features and concepts with my team as well. My favorite part was the easter egg and having videos to help students. Overall, I feel like we did great on the project and communicated greatly.  |
+|Diego| I am happy with the result of our project. My favorite parts are the easter egg, login and class suggesting pages because they are cool features but also complex.  It is crazy how much I have learned this tri.  |
+|luca|  |
+|Ethan| I'm suprised by just how much I've learned over this trimester. I've learned a lot of new HTML code with one of my favorites as making specific positions in an image a clickable link. Setting up a database was also very interesting for me as I had never thought creating a database would be so simple on a small computer like a pi. I've always imagined them as the large database servers.|
 
-# Tickets
+## Tickets
 2/22-2/26
 | Big Tickets                                                           | Assigned to        | Explanation |
 |-----------------------------------------------------------------------|--------------------|-------------|
-| Ticket 1: Work on login page to make the user logged in               | Ethan Sun          |             |
-| Ticket 2: Make sure the home page can tell if you've logged in or not | Luca Pinto         |             |
-| Ticket 3: Add class pages from data.py to home page                   | Naweid Hassanzadeh |             |
+| Ticket 1: Work on login page to make the user logged in               | Ethan Sun          |    https://github.com/EyJajb/tutorial_site/blob/87207225dde573588b47822d5c62c8246c6ef3ff/diego's_tutorial_page/tutorial_site/templates/login.html#L79         |
+| Ticket 2: Make sure the home page can tell if you've logged in or not | Luca Pinto         |       https://github.com/EyJajb/tutorial_site/blob/7e78c731e186de58aff8b6ccb3f663b647efd8b4/diego's_tutorial_page/tutorial_site/main.py#L36      |
+| Ticket 3: Add class pages from data.py to home page                   | Naweid Hassanzadeh |     https://github.com/EyJajb/tutorial_site/blob/3c952873bb216472ba83d5474ad4e0746eddee84/diego's_tutorial_page/tutorial_site/data.py#L8        |
 | Ticket 4: Class page images fit/class page descriptions fit           | Diego Krenz        |         Fixed up white spaces in the class pages. https://github.com/EyJajb/tutorial_site/blob/05f9c8e6f0ff3f5a3f74c9b011c9c9c95fc74531/diego's_tutorial_page/tutorial_site/templates/classpage.html#L60         |
 
 
