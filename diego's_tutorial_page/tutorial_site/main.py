@@ -76,6 +76,7 @@ def form():
             title = request.form.get('title')
             category = request.form.get('category')
             description = request.form.get('description')
+            video = request.form.get('video')
             return redirect("/showform?title=" + str(title) +"&category=" + str(category) + "&description=" + str(description) + "&video=" + str(video), code=302)
         else:
             return render_template("form.html")
@@ -110,7 +111,8 @@ def showform():
     title = request.args.get('title')
     category = request.args.get('category')
     description = request.args.get('description')
-    return render_template("showform.html", title=title , description=description , category=category)
+    video = request.args.get('video')
+    return render_template("showform.html", title=title , description=description , category=category, video=video)
 
 @app.route('/joke/',  methods=['GET', 'POST'])
 def joke():
